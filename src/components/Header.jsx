@@ -74,7 +74,6 @@ View all solutions(40+)
 
                             <div className="absolute hidden group-hover:block bg-white shadow-lg py-6 w-[1300px] h-[800px] left-0 top-full gap-24 z-10 ">
                                 <div className="max-w-screen-xl mx-auto grid grid-cols-5 gap-24 px-6 z-10">
-                                    {/* Columns for Dropdown Items */}
                                     <div>
                                     <a href="#" className="text-blue-600 hover:underline font-medium">
 
@@ -199,7 +198,6 @@ View all solutions(40+)
 
                             <div className="absolute hidden group-hover:block bg-white shadow-lg py-6 w-[1300px] h-[800px] left-0 top-full gap-24 z-10 ">
                                 <div className="max-w-screen-xl mx-auto grid grid-cols-5 gap-24 px-6 z-10">
-                                    {/* Columns for Dropdown Items */}
                                     <div>
                                         <a href="#" className="text-blue-600 hover:underline font-medium">
 
@@ -325,7 +323,6 @@ View all solutions(40+)
 
                             <div className="absolute hidden group-hover:block bg-white shadow-lg py-6 w-[500px] h-[300px] left-0 top-full gap-24 z-10 ">
                                 <div className="max-w-screen-xl mx-auto grid grid-cols-5 gap-24 px-6 z-10">
-                                    {/* Columns for Dropdown Items */}
                                     <div>
                                         
                                         <h3 className="font-bold text-gray-800 mt-10">Popular</h3>
@@ -369,7 +366,6 @@ View all solutions(40+)
 
                             <div className="absolute hidden group-hover:block bg-white shadow-lg py-6 w-[1000px] h-[400px] left-0 top-full gap-24 z-10 ">
                                 <div className="max-w-screen-xl mx-auto grid grid-cols-5 gap-24 px-6 z-10">
-                                    {/* Columns for Dropdown Items */}
                                     <div>
                                         <h3 className="font-bold text-gray-800 mt-10">Popular</h3>
                                         <ul className="mt-10 ">
@@ -410,7 +406,6 @@ View all solutions(40+)
 
                             <div className="absolute hidden group-hover:block bg-white shadow-lg py-6 w-[1300px] left-0 top-full z-10">
                                 <div className="max-w-screen-xl mx-auto grid grid-cols-5 gap-8 px-6 z-10">
-                                    {/* Columns for Dropdown Items */}
                                     <div>
                                         <h3 className="font-bold text-gray-800">Popular</h3>
                                         <ul className="flex space-x-6 mt-2 flex-wrap space-y-6">
@@ -460,7 +455,6 @@ View all solutions(40+)
 
                         <div className={` flex items-center transition-all ${isSearchExpanded ? 'w-full' : 'w-auto'} gap-4`}>
                             {!isSearchExpanded ? (
-                                // When not expanded, show the Search link with an icon
                                 <div className="flex items-center gap-2">
                                     <button
                                         onClick={handleSearchClick}
@@ -484,7 +478,6 @@ View all solutions(40+)
                                     </svg>
                                 </div>
                             ) : (
-                                // When expanded, show input field and cancel button
                                 <div className="s flex items-center w-full border border-gray-400  px-4 py-2 focus-within:ring-2 focus-within:ring-black">
                                     <input
                                         type="text"
@@ -509,7 +502,6 @@ View all solutions(40+)
                                 </div>
                             )}
 
-                            {/* Cancel Button */}
                             {isSearchExpanded && (
                                 <button
                                     onClick={handleCancelClick}

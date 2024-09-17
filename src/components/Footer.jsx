@@ -5,7 +5,6 @@ const Footer = () => {
     <footer className="bg-gray-100 py-10">
       <div className="ms-10 gap-y-5 mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-gray-700">
         
-        {/* Explore Azure */}
         <div>
           <h3 className="font-semibold mb-4">Explore Azure</h3>
           <ul className="space-y-2">
@@ -19,7 +18,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Products and Pricing */}
         <div>
           <h3 className="font-semibold mb-4">Products and pricing</h3>
           <ul className="space-y-2">
@@ -32,7 +30,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Solutions and Support */}
         <div>
           <h3 className="font-semibold mb-4">Solutions and support</h3>
           <ul className="space-y-2">
@@ -44,7 +41,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Partners */}
         <div>
           <h3 className="font-semibold mb-4">Partners</h3>
           <ul className="space-y-2">
@@ -54,7 +50,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Resources */}
         <div>
           <h3 className="font-semibold mb-4">Resources</h3>
           <ul className="space-y-2">
@@ -69,7 +64,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Cloud Computing */}
         <div>
           <h3 className="font-semibold mb-4">Cloud computing</h3>
           <ul className="space-y-2">
@@ -85,7 +79,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Footer Bottom Section */}
       <div className="flex justify-between items-center mt-8 px-10">
         <div className="flex items-center space-x-2">
           <a href="#" className="text-gray-600">English (India)</a>

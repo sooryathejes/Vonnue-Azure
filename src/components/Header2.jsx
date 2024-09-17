@@ -10,7 +10,6 @@ function Header2() {
 
                    
 
-                    {/* Search and Utility Links */}
                     <div className="hidden md:flex space-x-12 font-blue font-bold ">
                        
                         <a href="#" className="text-gray-600 hover:text-blue-600 border-b-2 border-transparent hover:border-black transition duration-300 ease-in-out">Featured news</a>

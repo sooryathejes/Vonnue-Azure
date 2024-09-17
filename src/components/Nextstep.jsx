@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 const NextStep = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Trigger animation only once
+    triggerOnce: true, e
     threshold: 0.1,
   })
   return (

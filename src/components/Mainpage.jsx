@@ -4,8 +4,8 @@ import './Mainpage.css';
 
 function Mainpage() {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Trigger animation only once
-    threshold: 0.1, // Adjust this value to control when the animation should start
+    triggerOnce: true, 
+    threshold: 0.1, 
   });
 
   return (

@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 
 function Global() {
     const { ref, inView } = useInView({
-        triggerOnce: true, // Trigger animation only once
+        triggerOnce: true, 
         threshold: 0.1,
     })
   return (

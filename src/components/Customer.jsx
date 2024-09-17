@@ -4,14 +4,14 @@ import './Customer.css'
 
 const Customer = () => {
     const companies = [
-        { name: 'HP', logo: 'https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/351994-CustomerStories-Logo-HP-135x58?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=271&hei=116&qlt=100&fit=constrain' }, // Use actual URLs for logos
+        { name: 'HP', logo: 'https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/351994-CustomerStories-Logo-HP-135x58?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=271&hei=116&qlt=100&fit=constrain' }, 
         { name: 'Unity', logo: 'https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/351994-CustomerStories-Logo-Unity-135x58?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=348&hei=150&qlt=100&fit=constrain' },
         { name: 'LEGO', logo: 'https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/351994-CustomerStories-Logo-LEGO-135x58?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=208&hei=100&qlt=100&fit=constrain' },
         { name: 'Siemens', logo: 'https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/351994-CustomerStories-Logo-Siemens-135x58?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=200&hei=100&qlt=100&fit=constrain' },
         { name: 'Heineken', logo: 'https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/351994-CustomerStories-Logo-Heineken-135x58?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=208&hei=100&qlt=100&fit=constrain' },
     ];
     const { ref, inView } = useInView({
-        triggerOnce: true, // Trigger animation only once
+        triggerOnce: true, 
         threshold: 0.1,
     })
     const [activeIndex, setActiveIndex] = useState(null);

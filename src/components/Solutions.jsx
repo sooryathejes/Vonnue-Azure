@@ -140,9 +140,7 @@ const Solutions = () => {
           </div>
         </div>
 
-        {/* Right Content */}
         <div className="k w-[800px] me-1 rounded-lg">
-          {/* Additional content */}
         </div>
       </div>
 

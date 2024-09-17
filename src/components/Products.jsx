@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 
 const Products = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, // Trigger animation only once
+    triggerOnce: true, 
     threshold: 0.1,
 })
   const products = [

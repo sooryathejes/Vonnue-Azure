@@ -14,7 +14,7 @@
 }
 .slide-in {
     opacity: 0;
-    transform: translateY(50px); /* Adjust this value based on how far you want the element to slide in */
+    transform: translateY(50px); 
     transition: opacity 2s ease-in-out, transform 2s ease-in-out;
   }
   
