@@ -4,9 +4,9 @@ import { useInView } from 'react-intersection-observer';
 
 const NextStep = () => {
   const { ref, inView } = useInView({
-    triggerOnce: true, e
+    triggerOnce: true,
     threshold: 0.1,
-  })
+  });
   return (
     <div className="l ">
  <div
@@ -15,9 +15,7 @@ const NextStep = () => {
                 <h2 className='text-8xl font-semibold mb-8'>Take the next step
                 </h2>
 
-        {/* Cards Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-3/4">
-          {/* Card 1 */}
           <div className="bg-white p-6 rounded shadow-lg">
             <h3 className="text-2xl font-semibold mb-2">
               Choose the Azure account that’s right for you
