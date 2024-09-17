@@ -1,0 +1,24 @@
+.i{
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-Interactive-Demo-BG-4x-070924ACOMhp-2?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1920&hei=1181&qlt=100&fit=constrain');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 950;
+}
+.j{
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Desktop-AzureRegions-2x?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=983&qlt=95&fmt=png-alpha&fit=constrain');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 550px;
+}
+.slide-in {
+    opacity: 0;
+    transform: translateY(50px); /* Adjust this value based on how far you want the element to slide in */
+    transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+  }
+  
+  .slide-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
